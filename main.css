@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.drop-area {
+  border: 3px dashed rgb(74, 96, 105);
+  width: 200px;
+  height: 200px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.drop-area.active{
+ background-color: #b9ac7f;
+ color: black;
+ border: 2px dashed #5d5d5d;
+}
+
+.drop-area button {
+ padding: 10px 25px;
+ font-size: 20px;
+ border: 0;
+ background-color: #90645d;
+ color: white;
+ border-radius: 5px;
+ cursor: pointer;
+ margin: 20px;
+}
+
+.file-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: solid 1px rgb(172, 169, 169);
+}
+
+#preview {
+  margin-top: 10px;
+}
